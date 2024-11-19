@@ -1,7 +1,7 @@
 /* Estilos generales para el cuerpo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9; /* Fondo suave para el cuerpo */
+    background-color: #f8bbd0; /* Fondo rosa suave */
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,7 +12,7 @@ body {
 
 /* Contenedor principal del formulario */
 .container {
-    background: #fff; /* Fondo blanco */
+    background: #fff; /* Fondo blanco para el formulario */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -23,7 +23,7 @@ body {
 /* Título principal del formulario */
 h1 {
     text-align: center;
-    color: #d5006d; /* Color fucsia */
+    color: #d5006d; /* Fucsia para el título */
     font-size: 24px; /* Tamaño de texto adecuado */
     margin-bottom: 20px; /* Espaciado debajo del título */
 }
@@ -61,7 +61,7 @@ select {
 /* Estilos para los botones */
 button {
     background-color: #d5006d; /* Fondo fucsia */
-    color: white; /* Color de texto blanco */
+    color: white; /* Texto blanco */
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
