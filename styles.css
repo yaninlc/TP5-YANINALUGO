@@ -1,0 +1,107 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Fondo suave para el cuerpo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el formulario esté centrado verticalmente */
+}
+
+/* Contenedor principal del formulario */
+.container {
+    background: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo para que no sea demasiado grande */
+}
+
+/* Título principal del formulario */
+h1 {
+    text-align: center;
+    color: #d5006d; /* Color fucsia */
+    font-size: 24px; /* Tamaño de texto adecuado */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaciado entre los elementos del formulario */
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-weight: bold;
+    color: #555; /* Color gris suave para las etiquetas */
+}
+
+/* Estilos comunes para inputs, select, y botones */
+input,
+select,
+button {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente adecuado */
+    outline: none; /* Eliminar el contorno predeterminado */
+}
+
+/* Estilos para los campos de entrada de texto y selección */
+input[type="text"],
+select {
+    width: 100%; /* Asegura que los inputs ocupen todo el ancho disponible */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #d5006d; /* Fondo fucsia */
+    color: white; /* Color de texto blanco */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+    font-size: 16px;
+}
+
+/* Efecto al pasar el ratón sobre los botones */
+button:hover {
+    background-color: #9c005d; /* Fucsia más oscuro */
+}
+
+/* Estilo del área de resultados */
+#resultado {
+    margin-top: 20px;
+    color: #d5006d; /* Fucsia para el texto de los resultados */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos adicionales para los radios y checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px; /* Espacio entre el botón y la etiqueta */
+}
+
+/* Estilos del botón "Limpiar" (resetear) */
+button[type="button"] {
+    background-color: #e0e0e0; /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+    margin-top: 10px; /* Espacio superior */
+}
+
+button[type="button"]:hover {
+    background-color: #bbb; /* Gris más oscuro al pasar el ratón */
+}
+
+/* Estilos para los mensajes de error o advertencia */
+.error {
+    color: #ff3b3b; /* Color rojo para mensajes de error */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
